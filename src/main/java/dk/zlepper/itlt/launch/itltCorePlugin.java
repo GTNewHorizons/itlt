@@ -1,7 +1,6 @@
 package dk.zlepper.itlt.launch;
 
 import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
-
 import java.util.Map;
 
 @IFMLLoadingPlugin.MCVersion("1.7.2")
@@ -22,9 +21,7 @@ public class itltCorePlugin implements IFMLLoadingPlugin {
     }
 
     @Override
-    public void injectData(Map<String, Object> map) {
-
-    }
+    public void injectData(Map<String, Object> map) {}
 
     @Override
     public String getAccessTransformerClass() {

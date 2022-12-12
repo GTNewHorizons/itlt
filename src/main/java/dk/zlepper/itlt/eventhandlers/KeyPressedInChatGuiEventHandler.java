@@ -11,6 +11,7 @@ import dk.zlepper.itlt.KeyBindings;
 public class KeyPressedInChatGuiEventHandler {
 
     private ChatGuiEventHandler handler;
+
     public KeyPressedInChatGuiEventHandler(ChatGuiEventHandler handler) {
         Itlt.logger.info("Creating keyPressedHandler");
         this.handler = handler;
@@ -19,7 +20,7 @@ public class KeyPressedInChatGuiEventHandler {
     @SubscribeEvent
     public void onKeyInput(InputEvent.KeyInputEvent event) {
         Itlt.logger.info("Key pressed");
-        if(KeyBindings.isEnterPressed()) {
+        if (KeyBindings.isEnterPressed()) {
             Itlt.logger.info("It was the enter key");
             handler.clearInputField();
         }
