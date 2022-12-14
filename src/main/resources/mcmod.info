@@ -1,19 +1,21 @@
-[
-  {
-    "modid": "itlt",
-    "name": "It's the little things",
-    "description": "A mod that does those \"little things\".",
-    "version": "${version}",
-    "mcversion": "${mcversion}",
-    "url": "https://curseforge.com/minecraft/mc-mods/its-the-little-things/files/all?filter-status=1&filter-game-version=1738749986%3A5",
-    "updateUrl": "",
-    "authorList": [
-      "Zlepper",
-      "Paint_Ninja"
-    ],
-    "credits": "",
-    "logoFile": "",
-    "screenshots": [],
-    "dependencies": []
-  }
-]
+{
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "A mod that does those \"little things\".",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "https://curseforge.com/minecraft/mc-mods/its-the-little-things/files/all?filter-status=1&filter-game-version=1738749986%3A5",
+		"updateUrl": "",
+		"authorList": ["Zlepper", "Paint_Ninja"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": [],
+		"dependants": [],
+		"useDependencyInformation": true
+	}]
+}
