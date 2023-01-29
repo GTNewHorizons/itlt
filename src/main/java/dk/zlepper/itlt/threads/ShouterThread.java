@@ -1,8 +1,9 @@
 package dk.zlepper.itlt.threads;
 
+import javax.swing.*;
+
 import dk.zlepper.itlt.Itlt;
 import dk.zlepper.itlt.proxies.ClientProxy;
-import javax.swing.*;
 
 public final class ShouterThread extends Thread {
 

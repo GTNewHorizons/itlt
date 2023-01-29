@@ -1,8 +1,10 @@
 package dk.zlepper.itlt;
 
-import cpw.mods.fml.client.registry.ClientRegistry;
 import net.minecraft.client.settings.KeyBinding;
+
 import org.lwjgl.input.Keyboard;
+
+import cpw.mods.fml.client.registry.ClientRegistry;
 
 /**
  * Created by Rasmus on 7/17/2015.

@@ -1,6 +1,7 @@
 package dk.zlepper.itlt.proxies;
 
 import java.awt.*;
+
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.*;
 
@@ -8,6 +9,7 @@ import org.lwjgl.opengl.*;
  * Created by Rasmus on 7/16/2015.
  */
 public class ClientProxy extends CommonProxy {
+
     public ClientProxy() {
         // Feature to come
         // KeyBindings.init();
@@ -17,9 +19,10 @@ public class ClientProxy extends CommonProxy {
 
     public void changeScreen() {
         if (!changed) {
-            /*GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
-            int width = gd.getDisplayMode().getWidth();
-            int height = gd.getDisplayMode().getHeight();*/
+            /*
+             * GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice(); int width
+             * = gd.getDisplayMode().getWidth(); int height = gd.getDisplayMode().getHeight();
+             */
             // Display.getDesktopDisplayMode();
             // DisplayMode dm = new DisplayMode(700, 800, 0, 0, true);
             try {

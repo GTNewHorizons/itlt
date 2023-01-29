@@ -1,10 +1,12 @@
 package dk.zlepper.itlt.launch;
 
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import java.util.Map;
+
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 
 @IFMLLoadingPlugin.MCVersion("1.7.2")
 public class itltCorePlugin implements IFMLLoadingPlugin {
+
     @Override
     public String[] getASMTransformerClass() {
         return null;
